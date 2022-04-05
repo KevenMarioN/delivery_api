@@ -1,0 +1,25 @@
+{
+  "name": "delivery_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KevenMarioN/delivery_api.git",
+  "author": "KevenMarioN <kevenmario.n.r@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "set NODE_ENV=dev && ts-node-dev src/server.ts",
+    "dev": "set NODE_ENV=dev && ts-node-dev src/server.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "bull": "^4.8.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "pg": "^8.7.3",
+    "reflect-metadata": "^0.1.13",
+    "ts-node-dev": "^1.1.8",
+    "typeorm": "^0.3.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
